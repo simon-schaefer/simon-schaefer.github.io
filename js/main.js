@@ -62,7 +62,7 @@ function main() {
 				      ],
   	  });
 
-  	  $("#clients").owlCarousel({
+  	  $("#social").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
   	      slideSpeed : 300,
@@ -73,19 +73,12 @@ function main() {
 				        [450, 2],
 				        [600, 2],
 				        [700, 2],
-				        [1000, 4],
-				        [1200, 5],
-				        [1400, 5],
-				        [1600, 5]
+				        [1000, 3],
+				        [1200, 3],
+				        [1400, 3],
+				        [1600, 3]
 				      ],
   	  });
-
-      $("#testimonial").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-        });
 
   	});
 
