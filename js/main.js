@@ -9,6 +9,23 @@ function main() {
 (function () {
    'use strict';
 
+   /* ==============================================
+  	Menu Slider
+  	=============================================== */ 
+
+  	$('a.page-scroll').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top - 40
+            }, 900);
+            return false;
+          }
+        }
+      });
+
     /*====================================
     Show Menu on Book
     ======================================*/
@@ -78,7 +95,7 @@ function main() {
                 queue: false
             }
         });
-      $('.cat a').click(function() {
+        $('.cat a').click(function() {
           $('.cat .active').removeClass('active');
           $(this).addClass('active');
           var selector = $(this).attr('data-filter');
