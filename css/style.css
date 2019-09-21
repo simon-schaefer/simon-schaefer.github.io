@@ -101,8 +101,8 @@ ul, ol{
 	background-color: #222222 !important;
 	padding: 0 !important;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #FCAC45 !important;
 	background-color: transparent;
@@ -112,7 +112,7 @@ ul, ol{
 .navbar-toggle {
 	border-radius: 0;
 	}
-.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: #FCAC45;
 	border-color: #FCAC45;
@@ -121,7 +121,7 @@ ul, ol{
 	background-color: #FFF;
 	}
 
-/* Home Style 
+/* Home Style
 ==============================*/
 #tf-home{
 	background: url(../img/01.jpg);
@@ -140,7 +140,7 @@ ul, ol{
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	height: 750px;
+	height: 900px;
 	background-attachment: fixed;
 }
 #tf-home p.lead{
@@ -189,16 +189,16 @@ ul.experiences-list li{
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
 }
-ul.experiences-list li span{ 
+ul.experiences-list li span{
 	margin-left: 5em;
 }
 
-/* Projects Section 
+/* Projects Section
 ==============================*/
 #tf-projects{
 	padding: 80px 0;
 }
-.categories{ 
+.categories{
 	padding: 10px 0;
 }
 ul.cat li{
@@ -294,13 +294,13 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text>i{
 	opacity: 1;
 	color: #ffffff;
-	cursor: pointer; 
+	cursor: pointer;
     -webkit-backface-visibility:hidden;
    -webkit-transform: translateY(100%);
 			transform: translateY(100%);
 }
 .hover-bg:hover .hover-text>button{
-	border-radius: 2px; 
+	border-radius: 2px;
 	opacity: 0.6;
 	background-color: #FFA500;
 	display: inline-block;
@@ -308,7 +308,7 @@ ol.type li a.active { font-weight: 700; }
 	cursor: pointer
 }
 .hover-bg:hover .hover-text>button:hover{
-	opacity: 1.0;    
+	opacity: 1.0;
 }
 .hover-bg:hover .hover-text{
 	opacity: 1;
@@ -405,7 +405,7 @@ img.img-circle.awards-img {
 	transition: all 0.5s;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
@@ -496,7 +496,7 @@ img.img-circle.social-img {
 	transition: all 0.5s;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
